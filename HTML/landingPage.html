@@ -25,6 +25,10 @@
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         font-size: larger;
+        cursor: pointer;
+      }
+      .navBar:hover {
+        color: white;
       }
       .content {
         padding: 60px 20px;
@@ -35,8 +39,12 @@
       .values {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         font-size: larger;
         margin: 40px 20px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        cursor: pointer;
       }
       .creativity {
         background-color: #dfbb61;
@@ -46,13 +54,19 @@
         line-height: 140px;
         text-align: center;
       }
-      .culturalHeritage {
+      .creativity:hover {
+        background-color: #c1a254;
+      }
+      .tradition {
         background-color: #efd8d7;
         border-radius: 50%;
         height: 140px;
         width: 140px;
         line-height: 140px;
         text-align: center;
+      }
+      .tradition:hover {
+        background-color: #dac6c5;
       }
       .craftsmanship {
         background-color: #9db1b6;
@@ -62,21 +76,33 @@
         line-height: 140px;
         text-align: center;
       }
+      .craftsmanship:hover {
+        background-color: #83969a;
+      }
+
+      .authenticity {
+        background-color: #c5abc7;
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+        line-height: 140px;
+        text-align: center;
+      }
+      .authenticity:hover {
+        background-color: #ae96b0;
+      }
       .footer {
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 40px;
+
         background-color: #dfbb61;
         color: white;
       }
       .footerMenu {
         list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: space-evenly;
-        line-height: 10px;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -91,15 +117,22 @@
 
     <div class="content">
       <h1>Our Values</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        perspiciatis quas illum, voluptates eius consequuntur quidem aliquam
+        earum, velit adipisci voluptas temporibus. Laborum laboriosam corporis
+        modi, dolor nesciunt veritatis tempore.
+      </p>
       <div class="values">
         <div class="creativity">Creativity</div>
-        <div class="culturalHeritage">Tradition</div>
+        <div class="tradition">Tradition</div>
         <div class="craftsmanship">Craftsmanship</div>
+        <div class="authenticity">Authenticity</div>
       </div>
     </div>
     <div class="footer">
       <ul class="footerMenu">
-        <li>Follow</li>
+        <li>Follow Us</li>
         <li>Refund Policy</li>
         <li>Shipping Policy</li>
       </ul>
