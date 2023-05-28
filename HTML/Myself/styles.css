@@ -1,0 +1,107 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  color: #375e60;
+}
+
+.header {
+  background-color: #d1dd5a;
+  color: #375e60;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* height: 10vh; */
+}
+.name {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 30px 0 0 30px;
+  color: #d45720;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.menu :hover {
+  color: #67acb0;
+}
+li {
+  padding: 0 30px 0 0;
+}
+#welcome {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #b8cfc7;
+  padding: 180px 40px 40px 40px;
+  margin: 0;
+
+  font-size: larger;
+}
+#food {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #e9d4de;
+  padding: 100px 40px;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#carpaccio,
+#mangos,
+#pizza,
+#potatoes,
+#latvia,
+#denmark,
+#guatemala,
+#france,
+#mjackson,
+#daftPunk,
+#eltonJohn,
+#theWeeknd {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#series {
+  column-count: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #375e60;
+  padding: 100px 40px;
+  color: whitesmoke;
+}
+.seriesText {
+  font-size: large;
+}
+#places {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #9fc8ca;
+  padding: 100px 40px;
+}
+#music {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #dae189;
+  padding: 100px 40px;
+}
+.footer {
+  background-color: #dae189;
+  display: flex;
+  justify-content: center;
+  color: #1a3738;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
