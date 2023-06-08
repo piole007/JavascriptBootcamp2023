@@ -25,6 +25,6 @@ function getPersonInfo(person) {
 
 let person = {
   firstName: "Sam",
-  lastName: "Barrios",
+  lastName: "Barriosgit",
   age: 45,
 };
