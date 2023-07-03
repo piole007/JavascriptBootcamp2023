@@ -10,7 +10,7 @@ app.use(express.json());
 const connectionToDB = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://admin:admin@cluster0.ruiqf.mongodb.net/students"
+      "mongodb+srv://viola:pumpure@cluster0.ekcexrc.mongodb.net/"
     );
     console.log("Connected to DB");
   } catch (error) {

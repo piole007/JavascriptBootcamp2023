@@ -66,5 +66,3 @@ export const updateStudent = async (req, res) => {
     res.status(400).send(error);
   }
 };
-
-// GET, CREATE, DELETE, UPDATE
