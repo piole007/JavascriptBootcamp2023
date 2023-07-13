@@ -18,6 +18,9 @@ const connectionToDB = async () => {
   }
 };
 
+// const Student = mongoose.model("Student", studentSchema);
+
+//localhost:3000/student/create
 app.use("/student", studentRoute);
 
 app.listen(port, () => {

@@ -7,6 +7,7 @@ import {
   updateStudent,
 } from "../controllers/studentController.js";
 
+//  to create routes and to have access to all the router methods (router.get, router.post etc)
 const router = express.Router();
 
 router.post("/create", createStudent);
